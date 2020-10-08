@@ -1,0 +1,15 @@
+[core]
+	editor = \"C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	email = senko@vision2B.de
+	name = Vladyslav Senko
+[alias]
+	s = status
+	co = checkout
+	b = branch
+	cb = checkout -b
+	cm = commit -m
+	bd = branch -d
+	bdf = branch -D
+	psu = "!git push -u origin \"$(git rev-parse --abbrev-ref HEAD)\""
+
